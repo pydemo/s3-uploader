@@ -17,7 +17,6 @@ Usage:
 import os, sys
 from pprint import pprint
 from optparse import OptionParser
-from pprint import pprint
 class ImproperlyConfigured(Exception):
     """Base class for Boto exceptions in this module."""
     pass
