@@ -5,6 +5,9 @@
 #           or losses related to the use of this software.
 ################################################################################
 Usage:  
+#---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+#----------------------------------------------------------------------
   set AWS_ACCESS_KEY_ID=<you access key>
   set AWS_SECRET_ACCESS_KEY=<you secret key>
   s3_percent_uploader.exe <file_to_transfer> <bucket_name> [<s3_key_name>] [<use_rr>] [<public>]
