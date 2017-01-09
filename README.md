@@ -2,6 +2,8 @@
     Ground to cloud data integration tool.
     Basic *file to Amazon-S3* uploader.
 
+Check also [S3 Directory Uploader] (https://github.com/alexbuz/S3-Directory-Uploader)
+
 Features:
  - No need for Amazon AWS CLI
  - Works from your OS Windows desktop (command line)
