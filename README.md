@@ -13,20 +13,20 @@ Features:
  - Access keys are fed from CLI environment (not command line args)
  - Written using Python/boto/PyInstaller
 
-##Version
+## Version
 
 OS|Platform|Version 
 ---|---|---- | -------------
 Windows|64bit|[0.1.0 beta]
 
-##Purpose
+## Purpose
 
 - Ad-hoc file upload to Amazon S3.
 - Optional upload to Reduced Redundancy storage (not RR by default).
 - Optional "make it public" after upload (private by default)
 - Custom S3 Key (defaulted to transfer file name)
 
-##Audience
+## Audience
 
 Business Analysts, AWS Developers, DevOps, 
 
@@ -39,7 +39,7 @@ Pre-Prod (UAT/QA/DEV)
  - Storage will cost you.
 
 
-##Usage
+## Usage
 
 ```
 ## Upload file to S3.
@@ -58,7 +58,7 @@ Usage:
 
 ```
 
-##Environment variables
+## Environment variables
 
 * Set the following environment variables:
 
@@ -67,9 +67,9 @@ set AWS_ACCESS_KEY_ID=<you access key>
 set AWS_SECRET_ACCESS_KEY=<you secret key>
 ```
 
-#Example 
+# Example 
 
-####Upload file to Amazon-S3 Reduced Redundancy storage and make in Publicly accessible
+### Upload file to Amazon-S3 Reduced Redundancy storage and make in Publicly accessible
 
 
 ```
@@ -80,7 +80,7 @@ cd c:\tmp\S3_Uploader
 s3_percent_upload.exe c:\tmp\data.zip test123 --use_rr -public
 
 ```
-####Result
+#### Result
 ```
 c:\Python35-32\PROJECTS\s3>..\\..\\python s3_percent_upload.py C:\Users\alex_buz\Downloads\instantclient-sqlplus-windows.x64-12.1.0.2.0\instantclient_12_1.zip test1 -r -p
 Connecting to S3...
@@ -118,5 +118,5 @@ Time elapsed: 538.1886253356934 seconds
 
 
 
-##Download
+## Download
 * [Master Release](https://github.com/alexbuz/S3_File_Uploader/archive/master.zip) -- `s3_percent_uploader 0.1.0`
