@@ -116,7 +116,9 @@ Time elapsed: 538.1886253356934 seconds
 ```
 
 
+## Other scripts
+https://github.com/pydemo/snowcli - Snowflake cli.
+https://github.com/pydemo/large-file-split-compress-parallel-upload-to-S3 - Chunked large file upload to S3.
+https://github.com/pydemo/Snowpipe-For-SQLServer - Memory pipe from SQLServer to Snowflake
+https://github.com/pydemo/large-file-split-compress-parallel-upload-to-S3 - Chunked large file upload to S3.
 
-
-## Download
-* [Master Release](https://github.com/alexbuz/S3_File_Uploader/archive/master.zip) -- `s3_percent_uploader 0.1.0`
